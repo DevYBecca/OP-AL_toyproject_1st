@@ -24,6 +24,8 @@
 |                                                 [주하림](https://github.com/wngkfla01)                                                 |                                                 [이시우](https://github.com/cuconveniencestore)                                                  |                                                 [이은지](https://github.com/dmswl2030)                                                 |                                                 [윤금엽](https://github.com/DevYBecca)                                                  |                                               [강동훈](https://github.com/nangkong98)                                                |
 |                      GitHub 팀장<br /> 초기 개발 세팅<br /> 리덕스 설정<br /> 마이 페이지<br /> (계좌, 구매내역)                       |                                                전체 디자인<br /> 제품 검색 기능<br /> 검색 리스트                                                |                                        로그인<br /> 회원가입<br /> 마이 페이지<br /> (내 정보)                                         |                                              제품 상세 페이지<br /> 제품 결제 페이지<br />                                              |                                                           더미데이터 수집                                                            |
 
+<br />
+
 ## 📌 기술 스택
 
 ### Development
@@ -60,6 +62,30 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+
+<br />
+
+## 📌 프로젝트 테스트
+
+### clone project
+
+```bash
+$ git clone https://github.com/OP-AL/opal.git
+```
+
+### install npm
+
+```bash
+$ npm install
+```
+
+### start project
+
+```bash
+$ npm run start
+```
+
+<br />
 
 ## 📌 구현 페이지 및 프리뷰
 
@@ -126,6 +152,8 @@
 | 마이 페이지<br/>(구매 내역)                                                                                                      | 마이 페이지<br/>(구매 취소)                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | ![user-mypage-purchase](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/21b07f83-ccc0-430b-b809-bc9d723c3ff1) | ![user-reservationcancel](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/b92009ad-e770-42a0-a5f3-1101ba978109) |
+
+<br />
 
 ## 📌 담당 페이지 및 기능 구현
 
