@@ -1,20 +1,21 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=OP-AL&fontSize=50)
 
+# 🗂 OP-AL
+
+> **O**ld **P**eople with **A**ctive **L**ife <br />  
+> React, TypeScript, REST API를 활용한 쇼핑몰 프로젝트 <br />  
+> 인생의 제 2막을 시작한 5060세대의 여가 및 건강 활동을 위한 공간을 소개·대여하는 공간 대여 플랫폼<br />
+
+<br />
+
 ## 📌 프로젝트 소개
 
-### OP-AL
+> **패스트캠퍼스 프론트엔드 개발 부트캠프 5기**<br />  
+> **개발 기간** : 2023.05.30 - 2023.07.02<br />  
+> **배포 링크** : **[OP-AL](https://zippy-sable-b21ba3.netlify.app/)**<br />  
+> **Repository** : [OP-AL](https://github.com/OP-AL/opal)<br />
 
-> **O**ld **P**eople with **A**ctive **L**ife <br />
-> REST 거래 API를 활용한 쇼핑몰 프로젝트 <br />
-> 인생의 제 2막을 시작한 5060세대의 여가 및 건강 활동을 위한 공간을 소개·대여하는 공간 대여 플랫폼
-
-### 프로젝트 기간
-
-2023.05.30 - 2023.07.02
-
-## 📌 배포 링크
-
-### **[OP-AL](https://zippy-sable-b21ba3.netlify.app/)**
+<br />
 
 ## 📌 개발 팀원 및 역할
 
@@ -100,31 +101,33 @@
     <img src="./src/Assets/Images/readme-sign.gif" width="500px">
   </details>
 
+  <br />
+
 ## 📌 구현 화면
 
 | 메인 페이지<br/>(로그인 전)                                                                                           | 메인 페이지<br/>(로그인 후)                                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| ![user-main](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/da01748f-8522-40ea-a5f0-56c4ac912eff) | ![user-main-reservation](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/72de3974-ecf1-4817-a79d-b38126288785) |
+| ![user-main](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/03942a39-e1c2-4365-913b-202790c13b82) | ![user-main-reservation](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/79e58b04-f067-40e5-8859-76358a8b7645) |
 
 | 로그인                                                                                                                  | 회원가입                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| ![user-signin](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/4562a912-ba74-4fe8-ae93-34836b22b6fa) | ![user-signup](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/68dff152-8054-4297-a7bf-cfd663e1a318) |
+| ![user-signin](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/feec5ae8-750f-430e-9d28-25bbe358908d) | ![user-signup](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/fffb36a1-98f7-4a69-bf74-8c5bbc3bd04f) |
 
 | 메인 페이지 퀵메뉴<br/>(로그인 후)                                                                                              | 제품 검색 페이지                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| ![user-main-quickmenu](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/865469d2-ac77-40db-94b7-2a258fbe2213) | ![user-search](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/c11e748e-f802-4fdb-8689-da31a27e7bb2) |
+| ![user-main-quickmenu](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/4ce1335c-0d2b-414a-8413-cc49554d442d) | ![user-search](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/467a2b5c-1e25-4512-ae68-0482bb8205b5) |
 
 | 제품 상세 페이지                                                                                                               | 제품 결제 페이지                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![user-productdetail](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/ac6df4ad-f0be-4603-bc0b-db8f8109c938) | ![user-productpayment](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/db47980a-1c76-4ac8-a3fc-fb9f40d0ec3a) |
+| ![user-productdetail](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/00e66935-5b02-4ddd-9269-56ad8b215aab) | ![user-productpayment](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/fe350cc3-bfe7-4fb1-992a-7c06e1da7086) |
 
 | 마이 페이지<br/>(내 정보)                                                                                                    | 마이 페이지<br/>(내 계좌)                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![user-mypage-info](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/8b84e3e2-884d-436f-a8f2-60db780abda5) | ![user-mypage-account](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/18cf99c3-7582-4957-96e8-d576f3aefee8) |
+| ![user-mypage-info](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/1acdac3b-6740-44e7-b0dc-5788f1150e65) | ![user-mypage-account](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/e478618f-9236-42b4-98d8-b4c4aea23ffa) |
 
 | 마이 페이지<br/>(구매 내역)                                                                                                      | 마이 페이지<br/>(구매 취소)                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| ![user-mypage-purchase](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/a7ea86d7-77bc-4a5a-9ab1-e7518e651dbe) | ![user-reservationcancel](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/edfed6f8-a70a-4f03-9782-b1f9cc8bcd3e) |
+| ![user-mypage-purchase](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/21b07f83-ccc0-430b-b809-bc9d723c3ff1) | ![user-reservationcancel](https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/b92009ad-e770-42a0-a5f3-1101ba978109) |
 
 ## 📌 담당 페이지 및 기능 구현
 
@@ -132,8 +135,10 @@
 
 #### 1. 제품 ID를 파라미터로 전달받아 제품별 상세페이지 구현
 
-> 제품 검색 페이지에서 제품 클릭 시 `Link 컴포넌트에서 URL 경로에 동적인 제품 ID`를 담고,<br /> > `Route path`를 통해 ProductDetail.tsx에 제품 ID를 파라미터로 전달한다.<br />
-> 제품 상세 페이지에서는 `useParams()`를 이용해 파라미터 값을 받아와 api에 호출하여 상세 데이터를 출력한다.<br /> > `useParams()` Hook으로 제품에 대한 페이지를 개별적으로 생성하지 않고,<br />
+> 제품 검색 페이지에서 제품 클릭 시 `Link 컴포넌트에서 URL 경로에 동적인 제품 ID`를 담고,<br />
+> `Route path`를 통해 ProductDetail.tsx에 제품 ID를 파라미터로 전달한다.<br />
+> 제품 상세 페이지에서는 `useParams()`를 이용해 파라미터 값을 받아와 api에 호출하여 상세 데이터를 출력한다.<br />
+> `useParams()` Hook으로 제품에 대한 페이지를 개별적으로 생성하지 않고,<br />
 > 변경되는 파라미터만 전달하여 api 호출을 할 수 있다.<br />
 
 ```TypeScript
@@ -208,13 +213,15 @@ const handleProductPayment = () => {
 
 #### 3. map() 함수로 반복문을 이용해 컴포넌트 구현
 
-> 이번 프로젝트 시작 전, JavaScript와 React 학습이 부족한 상황이었고 일주일 정도 빠르게 학습을 진행했었다.<br /> > `map()` 함수는 배열의 각 요소를 순회하면서 새로운 배열을 반환하기 때문에 반복문에 사용해보게 되었다.<br />
+> 이번 프로젝트 시작 전, JavaScript와 React 학습이 부족한 상황이었고 일주일 정도 빠르게 학습을 진행했었다.<br />
+> `map()` 함수는 배열의 각 요소를 순회하면서 새로운 배열을 반환하기 때문에 반복문에 사용해보게 되었다.<br />
 > 구현 초반에 `'상세 페이지는 제품 ID마다 다르게 출력되어야 하니 반복문으로 사용해주면 되는게 아닐까?'`라고 생각했고,
 > Route path의 파라미터에 `/:id`로 지정하고 제품 조회 api 호출 결과에 map() 함수를 적용했지만
 > 제대로 출력이 되지 않았다.<br />
 > 조원분들께 여쭤봤을 때 '변수의 상태를 보고 싶다면 `console.log`로 확인해보세요'라는 팁과 함께<br />
 > map() 함수를 잘못 사용하고 있다는 것을 알게 되었다😭<br />
-> (동적인 제품 ID를 파라미터로 전달해주고 출력해주기만 하면 되는데,<br /> > `배열 속에 모든 제품 데이터가 넘어오는 구조로 잘못 생각했던 것...`)<br />
+> (동적인 제품 ID를 파라미터로 전달해주고 출력해주기만 하면 되는데,<br />
+> `배열 속에 모든 제품 데이터가 넘어오는 구조로 잘못 생각했던 것...`)<br />
 > (조원분의 답변대로 map() 함수를 지워주자 파라미터로 전달된 ID에 해당하는<br />
 > 제품 상세 데이터가 바로 잘 출력되었다.)<br />
 > map() 함수가 잘 동작하기 위해선 `'배열 속에 데이터들이 존재해야 한다'`라는 점을 다시 깨닫고,
@@ -259,31 +266,11 @@ const hashTags = product.tags.map((tag) => `#${tag}`);
 > fetch는 Promise를 반환하고, json() 메서드로 파싱이 필요하며, Node.js에서 동작하지 않기 때문에<br />
 > axios를 많이 사용하고 있고 멘토님께서도 `axios를 자주 사용해보길 추천`해주셨다.<br />
 > 그래서 이번 프로젝트에서 axios로 api 호출을 하기로 결정했고 코드들을 `api.ts 파일`에 작성하였다.<br />
-> api 관련 코드들을 `하나의 파일에서 볼 수 있다`는 장점이 있지만, 코드가 길어지다 보니 `가독성이 떨어져서`<br /> > `기능별로 api를 분리하여 파일을 관리해주는 방법이 더 좋겠다`는 생각을 하게 되었다.<br />
+> api 관련 코드들을 `하나의 파일에서 볼 수 있다`는 장점이 있지만, 코드가 길어지다 보니 `가독성이 떨어져서`<br />
+> `기능별로 api를 분리하여 파일을 관리해주는 방법이 더 좋겠다`는 생각을 하게 되었다.<br />
 
 ```TypeScript
 // api.ts
-export interface ProductDetailResponseData {
-  id: string; // 제품 ID
-  title: string; // 제품 이름
-  price: number; // 제품 가격
-  description: string; // 제품 상세 설명
-  tags: string[]; // 제품 태그
-  thumbnail: string; // 제품 썸네일 이미지(URL)
-  photo: string; // 제품 상세 이미지(URL)
-  isSoldOut: boolean; // 제품 매진 여부
-  reservations: Reservation[]; // 제품의 모든 예약 정보 목록
-  discountRate: number; // 제품 할인율
-}
-
-// 예약 정보가 있는 경우
-export interface Reservation {
-  start: string; // 예약 시작 시간
-  end: string; // 예약 종료 시간
-  isCanceled: boolean; // 예약 취소 여부
-  isExpired: boolean; // 예약 만료 여부
-}
-
 export async function productDetailApi(id: string) {
   const res = await axios.get(`${BASE_URL}/products/${id}`, {
     headers,
@@ -300,9 +287,7 @@ useEffect(() => {
   const fetchProduct = async () => {
     try {
       const productDetailData = await productDetailApi(id as string);
-      dispatch(updateProductDetail(productDetailData));
-    } catch (error) {
-      console.log(error as Error);
+      // ...
     }
   };
   fetchProduct();
@@ -321,10 +306,7 @@ try {
 
   // 제품(공간) 구매 신청(결제)
   await productPaymentApi(accessToken, requestBody);
-  setIsModalOpen(true);
-} catch {
-  alert('결제실패');
-}
+  // ...
 
 // 제품 거래(구매)신청 - POST
 export interface PaymentRequestBody {
@@ -341,7 +323,8 @@ export interface PaymentRequestBody {
 #### 5. React의 Lifecycle과 useEffect
 
 > 프로젝트 시작 전 빠르게 React를 학습하면서 `컴포넌트에 Lifecycle이라는 인생 주기가 있고 작성해둔 특정 코드가
-실행될 시점을 지정할 수 있어` html 렌더링이 빠른 사이트를 구현할 때 유용하다는 점을 알게 되었다.<br /> > `useEffect()`를 이용해 컴포넌트가 `mount`, `unmount`, `update` 되는 시점 중 동작하는 시점을 조절할 수 있고,<br />
+실행될 시점을 지정할 수 있어` html 렌더링이 빠른 사이트를 구현할 때 유용하다는 점을 알게 되었다.<br />
+> `useEffect()`를 이용해 컴포넌트가 `mount`, `unmount`, `update` 되는 시점 중 동작하는 시점을 조절할 수 있고,<br />
 > 두 번째 파라미터로 `의존성 배열`을 받아 그 요소(변수, state)가 변경될 때만 useEffect() 내에 작성한 코드가<br />
 > 실행되는데 React로 페이지를 구현하다보니 필수불가결적인 함수라는 사실을 알게 되었고, 도입하게 되었다.<br />
 
@@ -386,19 +369,11 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 interface ProductState {
   id: string;
   title: string;
-  price: number;
-  description: string;
-  tags: string[];
-  thumbnail: string | null;
-  photo: string | null;
-  isSoldOut: boolean;
-  reservations: ReservationState[];
-  discountRate: number;
-}
 // ...
 ```
 
-> 단일 제품 상세 데이터, datePicker에서 선택한 입실 및 퇴실 시간, 인원 수, 선택한 계좌를 Redux로 관리 했는데<br /> > `'제품 결제 페이지를 새로고침할 경우 제품 상세 페이지에서 선택한 옵션들이 초기화되는 문제'`를 발견했다😭<br />
+> 단일 제품 상세 데이터, datePicker에서 선택한 입실 및 퇴실 시간, 인원 수, 선택한 계좌를 Redux로 관리 했는데<br />
+> `'제품 결제 페이지를 새로고침할 경우 제품 상세 페이지에서 선택한 옵션들이 초기화되는 문제'`를 발견했다😭<br />
 > 재렌더링이 되더라도 상태를 초기화 하지 않고 유지해주는 라이브러리가 있다는 얘기를 들었지만<br />
 > 마감 날짜가 촉박하여 Redux로 상태 관리를 하고 있던 변수들을 `cookie로 변경`하게 되었다.<br />
 > 조원분이 작성해주신 코드가 merge된 내용들도 있어 관련 코드들은 리팩토링이 반드시 필요할 것 같다😭<br />
@@ -413,8 +388,9 @@ interface ProductState {
 관심을 많이 가져야겠다`는 생각을 하게 되었다.<br />
 > 아직 미숙하지만 JavaScript 문법이나 React에 대해 보다 친숙해질 수 있었고, 모르는 부분이 생긴다면 생각만 할 것이 아니라
 > 코드 곳곳에 `console.log`를 찍어보며 구현 과정 중 `어느 부분에서 문제가 생겼는지 확인해보는 방법도 도움이 많이 되고
-검색을 잘하는 것도 센스와 실력이 필요함`을 느끼게 되었다.<br />
-> 그리고 이전엔 `코드를 어디서부터 어떻게 봐야할지 감이 안잡혀` 혼란스러웠는데, `조금이나마 '숲'에서 '나무'를 보는 방법`을 익히게 됐다.<br /> > `GitHub repository로 협업하며 특강에서 학습했던 명령어들에 굉장히 익숙해졌으며` stash를 활용하는 방법을 조원분께서 알려주셔서
+검색을 잘하는 것도 센스와 실력이 필요함`을 느끼게 되었다.
+> 그리고 이전엔 `코드를 어디서부터 어떻게 봐야할지 감이 안잡혀` 혼란스러웠는데, `조금이나마 '숲'에서 '나무'를 보는 방법`을 익히게 됐다.
+> `GitHub repository로 협업하며 특강에서 학습했던 명령어들에 굉장히 익숙해졌으며` stash를 활용하는 방법을 조원분께서 알려주셔서
 > 서로 수월하게 작업할 수 있었고, 충돌을 겪은 적이 거의 없었던 것 같다.<br />
 > Redux로 관리하던 변수들을 cookie로 대체하거나, 결제 과정 중 출력되는 Modal 등은 다른 조원분들이 코드를 합쳐주신 내역들이 있어서
 > 리팩토링을 통해 hooks 분리, 코드 정리, 주석으로 코드에 대한 설명 추가 등의 작업을 진행해봐야겠다💪🏻<br />
