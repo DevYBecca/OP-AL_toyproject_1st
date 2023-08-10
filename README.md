@@ -127,6 +127,135 @@ $ npm run start
 
   <br />
 
+## 📌 폴더 구조
+
+<details>
+<summary>보기</summary>
+<div markdown="1">
+
+```
+📦 OP-AL
+├─ .eslintrc.js
+├─ .prettierrc
+├─ 404.html
+├─ README.md
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ _redirects
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ src
+│  ├─ App.tsx
+│  ├─ Assets
+│  │  └─ Images
+│  │     ├─ 0_partyRoom.png
+│  │     ├─ 10_hall.png
+│  │     ├─ 11_gallery.png
+│  │     ├─ 1_seminarRoom.png
+│  │     ├─ 1_seminarRoom2.png
+│  │     ├─ 2_filmStudio.png
+│  │     ├─ 3_practiceRoom.png
+│  │     ├─ 4_livebroadCast.png
+│  │     ├─ 5_publicKitchen.png
+│  │     ├─ 6_athleticFacilities.png
+│  │     ├─ 7_rentalStudio.png
+│  │     ├─ 8_classRoom.png
+│  │     ├─ 9_cafe.png
+│  │     ├─ d.jpeg
+│  │     ├─ donghun.png
+│  │     ├─ eunji.png
+│  │     ├─ event_001.jpeg
+│  │     ├─ event_002.jpeg
+│  │     ├─ event_003.jpeg
+│  │     ├─ event_004.jpeg
+│  │     ├─ geumyeop.png
+│  │     ├─ github.png
+│  │     ├─ harim.png
+│  │     ├─ now_001.jpeg
+│  │     ├─ now_002.jpeg
+│  │     ├─ now_003.jpeg
+│  │     ├─ now_004.jpeg
+│  │     ├─ now_005.jpeg
+│  │     ├─ readme-item.gif
+│  │     ├─ readme-main.gif
+│  │     ├─ readme-mypage.gif
+│  │     ├─ readme-sign.gif
+│  │     └─ siwoo.png
+│  ├─ Components
+│  │  ├─ Common
+│  │  │  └─ NotFound.tsx
+│  │  ├─ Contents
+│  │  │  ├─ Category.tsx
+│  │  │  ├─ Counter.tsx
+│  │  │  ├─ Event.tsx
+│  │  │  ├─ QuickMenu.tsx
+│  │  │  ├─ SearchBar.tsx
+│  │  │  ├─ SelectionAccount.tsx
+│  │  │  └─ VoucherModal.tsx
+│  │  ├─ Footer
+│  │  │  └─ Footer.tsx
+│  │  └─ Header
+│  │     └─ Header.tsx
+│  ├─ Pages
+│  │  ├─ Home
+│  │  │  └─ Home.tsx
+│  │  ├─ MyPage
+│  │  │  ├─ MyAccount.tsx
+│  │  │  ├─ MyInfo.tsx
+│  │  │  ├─ MyPage.tsx
+│  │  │  └─ MyPurchase.tsx
+│  │  ├─ ProductDetail
+│  │  │  └─ ProductDetail.tsx
+│  │  ├─ ProductList
+│  │  │  ├─ ProductItem.tsx
+│  │  │  └─ ProductList.tsx
+│  │  ├─ ProductPayment
+│  │  │  └─ ProductPayment.tsx
+│  │  ├─ Routes.tsx
+│  │  ├─ SignIn
+│  │  │  └─ SignIn.tsx
+│  │  └─ SignUp
+│  │     └─ SignUp.tsx
+│  ├─ Styles
+│  │  ├─ Category.scss
+│  │  ├─ Event.scss
+│  │  ├─ Footer.scss
+│  │  ├─ Globalstyle.ts
+│  │  ├─ Header.scss
+│  │  ├─ Home.scss
+│  │  ├─ Modal.scss
+│  │  ├─ MyAccount.scss
+│  │  ├─ MyInfo.scss
+│  │  ├─ MyPage.scss
+│  │  ├─ MyPurchase.scss
+│  │  ├─ NotFound.scss
+│  │  ├─ ProductDetail.module.scss
+│  │  ├─ ProductItem.scss
+│  │  ├─ ProductPayment.module.scss
+│  │  ├─ QuickMenu.scss
+│  │  ├─ SearchBar.scss
+│  │  ├─ SelectionAccount.scss
+│  │  ├─ Sign.scss
+│  │  └─ common.scss
+│  ├─ api.ts
+│  ├─ index.tsx
+│  ├─ react-app-env.d.ts
+│  ├─ redux
+│  │  ├─ reducer
+│  │  │  └─ reducer.tsx
+│  │  └─ store.tsx
+│  └─ reportWebVitals.ts
+└─ tsconfig.json
+```
+
+</div>
+</details>
+
+<br />
+
 ## 📌 구현 화면
 
 | 메인 페이지<br/>(로그인 전)                                                                                           | 메인 페이지<br/>(로그인 후)                                                                                                       |
