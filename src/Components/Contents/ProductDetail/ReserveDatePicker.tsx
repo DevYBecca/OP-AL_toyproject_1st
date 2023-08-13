@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { DatePicker, ConfigProvider } from 'antd';
 import { RangePickerProps } from 'antd/es/date-picker';
-import { selectedDateTime } from 'redux/reducer/reserveOptionSlice';
+import { selectedDateTime } from 'redux/reducer/reducer';
 import dayjs from 'dayjs';
 import 'dayjs/locale/ko';
 import locale from 'antd/locale/ko_KR';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { InputNumber } from 'antd';
-import { selectedGuests } from 'redux/reducer/guestsSlice';
+import { selectedGuests } from 'redux/reducer/reducer';
 
 const ReserveGuestsInput = () => {
   const dispatch = useDispatch();

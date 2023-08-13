@@ -5,14 +5,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useCookies } from 'react-cookie';
 import { productDetailApi } from 'api';
 import {
-  RootProductState,
+  RootState,
   updateProductDetail,
-} from 'redux/reducer/productSlice';
-import {
-  RootReserveState,
   selectedDateTime,
-} from 'redux/reducer/reserveOptionSlice';
-import { RootGuestsState, selectedGuests } from 'redux/reducer/guestsSlice';
+  selectedGuests,
+} from 'redux/reducer/reducer';
 import ReserveDatePicker from 'Components/Contents/ProductDetail/ReserveDatePicker';
 import ReserveGuestsInput from 'Components/Contents/ProductDetail/ReserveGuestsInput';
 import styles from 'Styles/ProductDetail.module.scss';
@@ -37,7 +34,7 @@ const ProductDetail: React.FC = () => {
 
   // 제품 상세 페이지 렌더링 시 제품 ID에 해당하는 데이터를 redux에 업데이트하고,
   // 업데이트된 state를 가져오기
-  const product = useSelector((state: RootProductState) => state.productSlice);
+  const product = useSelector((state: RootState) => state.productSlice);
 
   // 제품의 tags를 가져와 해시태그 기호를 붙여 출력
   const hashTags = product.tags.map((tag) => `#${tag}`);
@@ -64,15 +61,13 @@ const ProductDetail: React.FC = () => {
 
   // 입실 시간, 퇴실 시간, 이용 시간을 관리하는 state 가져오기
   const reserveOption = useSelector(
-    (state: RootReserveState) => state.reserveOptionSlice
+    (state: RootState) => state.reserveOptionSlice
   );
 
   const endTime = reserveOption.end; // 퇴실 시간 변수 지정
 
   // 예약 인원 수를 관리하는 state 가져오기
-  const guests = useSelector(
-    (state: RootGuestsState) => state.guestsSlice.guests
-  );
+  const guests = useSelector((state: RootState) => state.guestsSlice.guests);
 
   // '예약하기' 버튼 클릭 시 동작하는 함수
   const handlePaymentClick = () => {
