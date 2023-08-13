@@ -568,7 +568,7 @@ interface ProductState {
 > 찾아보니 `redux에서 페이지를 새로고침 할 경우 state들을 관리하는 store가 초기화되기 때문`에 발생하는 에러였다.
 > 이런 점을 해결하기 위해 `redux-persist` 라이브러리를 이용해 Local이나 Session Storage에 저장하는 방법을 도입해보았다.<br />
 > 상세, 결제 페이지에서 사용하는 slice(state)들만 파일을 분리하여 관리하는 방법을 시도했지만 새로고침 시 계속 초기화가 되었다😭
-> 공식 문서와 검색, chatGPT를 이용해 5-6시간 동안 수정해보았지만 해결되지 않았는데 핵심은 공식 문서대로 적용하는 것이었다!
+> 공식 문서와 검색, chatGPT를 이용해 5-6시간 동안 수정해보았지만 해결되지 않았는데 핵심은 공식 문서대로 적용하는 것이었다!<br />
 > <img src="https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/2e9dee13-c2df-4bc7-856a-39f61fa92aba"  height=300 />
 > <img src="https://github.com/DevYBecca/OP-AL_toyproject_1st/assets/125433485/a7e9bda7-8aeb-4192-9451-eb88ae77dc60" height=300 /><br />
 > slice별로 파일 분리를 하고 각 slice의 reducer에 persistReducer()를 적용하고 combineReducers()를 적용할 땐 세션 스토리지에 저장도 되지 않았다.
