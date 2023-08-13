@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 // 예약 날짜 및 시간 타입 지정
-interface ReserveOptionState {
+export interface ReserveOptionState {
   start: string;
   end: string;
   timeDiffer: string;
@@ -26,6 +26,10 @@ const reserveOptionSlice = createSlice({
     },
   },
 });
+
+export interface RootReserveState {
+  reserveOptionSlice: ReserveOptionState;
+}
 
 export const { selectedDateTime } = reserveOptionSlice.actions;
 

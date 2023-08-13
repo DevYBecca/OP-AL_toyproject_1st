@@ -1,5 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { persistReducer, persistStore } from 'redux-persist';
+import {
+  FLUSH,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+  REHYDRATE,
+  persistReducer,
+  persistStore,
+} from 'redux-persist';
 import productSlice from './reducer/productSlice';
 import reserveOptionSlice from './reducer/reserveOptionSlice';
 import guestsSlice from './reducer/guestsSlice';
@@ -35,6 +44,12 @@ const store = configureStore({
     reserveOptionSlice: persistedReserveOptionReducer,
     guestsSlice: persistedGuestsReducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
 });
 
 // redux-persist를 적용한 store 생성

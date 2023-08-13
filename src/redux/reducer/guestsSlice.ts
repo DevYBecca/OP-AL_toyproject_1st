@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 // 예약 인원 타입 지정
-interface GuestsState {
+export interface GuestsState {
   guests: number;
 }
 
@@ -20,6 +20,10 @@ const guestsSlice = createSlice({
     },
   },
 });
+
+export interface RootGuestsState {
+  guestsSlice: GuestsState;
+}
 
 export const { selectedGuests } = guestsSlice.actions;
 

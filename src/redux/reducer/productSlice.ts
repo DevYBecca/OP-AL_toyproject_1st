@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 // 단일 제품 상세 조회 타입 지정
-interface ProductState {
+export interface ProductState {
   id: string;
   title: string;
   price: number;
@@ -15,7 +15,7 @@ interface ProductState {
 }
 
 // 단일 제품 상세 조회 - 예약 정보가 있을 경우의 타입 지정
-interface ReservationState {
+export interface ReservationState {
   start: string;
   end: string;
   isCanceled: boolean;
@@ -70,10 +70,17 @@ const reservationSlice = createSlice({
   initialState: initialReservationState,
   reducers: {
     updateReservation: (state, action: PayloadAction<ReservationState>) => {
-      action.payload;
+      state.start = action.payload.start;
+      state.end = action.payload.end;
+      state.isCanceled = action.payload.isCanceled;
+      state.isExpired = action.payload.isExpired;
     },
   },
 });
+
+export interface RootProductState {
+  productSlice: ProductState;
+}
 
 export const { updateProductDetail } = productSlice.actions;
 export const { updateReservation } = reservationSlice.actions;
