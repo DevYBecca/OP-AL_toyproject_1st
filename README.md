@@ -561,7 +561,7 @@ interface ProductState {
 
 ### 제품 상세 페이지 & 제품 결제 페이지
 
-#### 1. 제품 결제 페이지 새로고침 시 redux store 초기화 문제 수정
+#### 1. 제품 결제 페이지 새로고침 시 redux store 초기화 문제 수정(redux-persist 도입)
 
 > 상세 페이지에서 선택한 입실 및 퇴실 날짜, 시간, 이용 시간, 예약 인원 수가 결제 페이지로 잘 출력되지만 새로고침 시
 > redux-toolkit으로 관리하던 state들이 undefined가 되는 현상이 발생해서 프로젝트 후반에 다른 조원분이 cookie로 변경을 하셨었다.
