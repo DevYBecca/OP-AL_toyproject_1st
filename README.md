@@ -12,7 +12,7 @@
 
 > **패스트캠퍼스 프론트엔드 개발 부트캠프 5기**<br />  
 > **개발 기간** : 2023.05.30 - 2023.07.02<br />  
-> **배포 링크** : **[OP-AL](https://zippy-sable-b21ba3.netlify.app/)**<br />  
+> **배포 링크** : **[OP-AL](https://op-al.netlify.app/)**<br />  
 > **Repository** : [OP-AL](https://github.com/OP-AL/opal)<br />
 
 <br />
